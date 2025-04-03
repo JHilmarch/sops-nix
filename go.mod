@@ -1,4 +1,4 @@
-module github.com/Mic92/sops-nix
+module github.com/JHilmarch/sops-nix
 
 go 1.23.0
 
@@ -126,3 +126,5 @@ require (
 	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/getsops/sops/v3 v3.9.4 => github.com/getsops/sops/v3 v3.10.1
